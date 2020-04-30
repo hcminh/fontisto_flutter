@@ -1,0 +1,23 @@
+name: fontisto_flutter
+description: A package provide variety icon of Fontisto 
+version: 0.0.1
+author: Hoàng Công Minh <hoangminhh17@gmail.com>
+homepage: https://github.com/hcminh/fontisto_flutter
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  fonts:
+    - family: Fontisto
+      fonts:
+        - asset: lib/fonts/fontisto.ttf
