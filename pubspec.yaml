@@ -1,22 +1,18 @@
 name: fontisto_flutter
-description: A package provide variety icon of Fontisto 
-version: 0.0.1
+description: The Fontisto Icon pack available as Flutter Icons. Provides over 600 (update..) additional icons to use in your apps.
+version: 3.0.5
 author: Hoàng Công Minh <hoangminhh17@gmail.com>
 homepage: https://github.com/hcminh/fontisto_flutter
 
 environment:
-  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  sdk: ">=2.0.0 <3.0.0"
+  flutter: ">=1.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
 flutter:
-
   fonts:
     - family: Fontisto
       fonts:

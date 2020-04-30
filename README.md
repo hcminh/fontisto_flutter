@@ -38,9 +38,7 @@ View the Flutter app in the `example` directory to see all the available `Fontis
 ```yaml
 dependencies:
   fontisto_flutter: '>= 0.0.1'
-  ...
+```
   
-
 ## Contributors
-
   - Hoàng Công Minh

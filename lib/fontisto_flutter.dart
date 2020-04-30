@@ -1,15 +1,19 @@
 library fontisto_flutter;
 
 import 'package:flutter/widgets.dart';
-import 'icon_data.dart';
+import 'package:fontisto_flutter/src/icon_data.dart';
+export 'package:fontisto_flutter/src/icon_data.dart';
 
+/// [IconData] for a fontisto icon from a code point
+///
+/// Code points can be obtained from fontisto.com
 class Istos {
   static const IconData audio_description = IconDataFontisto(0xe900);
   static const IconData blind = IconDataFontisto(0xe901);
-  static const IconData braille = IconDataFontisto(0xe902);
   static const IconData deaf = IconDataFontisto(0xe903);
-  static const IconData sign_language_interpreting = IconDataFontisto(0xe904);
+  static const IconData braille = IconDataFontisto(0xe902);
   static const IconData question_circle = IconDataFontisto(0xe905);
+  static const IconData sign_language_interpreting = IconDataFontisto(0xe904);
   static const IconData low_vision = IconDataFontisto(0xe906);
   static const IconData tty = IconDataFontisto(0xe907);
   static const IconData universal_acces = IconDataFontisto(0xe908);
