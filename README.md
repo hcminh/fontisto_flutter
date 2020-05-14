@@ -4,7 +4,7 @@
 The [Fontisto](https://www.fontisto.com/icons) Icon pack available as set of Flutter Icons.  
 The [Linearicon](https://linearicons.com/free) Icon pack available as set of Flutter Icons.
    
-Based on Fontisto 3.0.4. Includes all free icons (over 600 icon). &nbsp;
+Based on Fontisto 3.0.4. Includes all free icons (over 600 icon).<br/>
 Based on Linearicon Free 1.0.0. Includes all free icons (over 170 icon).  
 
 ## Installation
