@@ -1,3 +1,10 @@
+## [3.1.3] - Update Linear icon 
+
+* Add more 250 Linearicon free 
+
+## [3.1.2] - Update Linear icon 
+## [3.1.1] - Update Linear icon 
+
 ## [3.1.0] - Update Linear icon 
 
 * Add Linearicon free to fontisto_flutter collection
