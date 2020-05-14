@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Fontisto flutter Example',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: MyHomePage(),
     );
@@ -21,16 +21,27 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Fontisto flutter'),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Icon(
-              Istos.visa,
-              color: Colors.red,
+      body: Column(
+        children: <Widget>[
+          ListTile(
+            title: Text("Fontisto"),
+            subtitle: Text("Istos.android"),
+            leading: Icon(
+              Istos.android,
+              color: Colors.green,
+              size: 40.0,
             ),
-          ],
-        ),
+          ),
+          ListTile(
+            title: Text("Linearicon"),
+            subtitle: Text("Linear.android"),
+            leading: Icon(
+              Linear.android,
+              color: Colors.green,
+              size: 40.0,
+            ),
+          ),
+        ],
       ),
     );
   }

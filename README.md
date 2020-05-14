@@ -1,9 +1,11 @@
 # fontisto_flutter 
 
 
-The [Fontisto](https://www.fontisto.com/icons) Icon pack available as set of Flutter Icons.
-
-Based on Fontisto 3.0.4. Includes all free icons
+The [Fontisto](https://www.fontisto.com/icons) Icon pack available as set of Flutter Icons.  
+The [Linearicon](https://linearicons.com/free) Icon pack available as set of Flutter Icons.
+   
+Based on Fontisto 3.0.4. Includes all free icons (over 600 icon). &nbsp;
+Based on Linearicon Free 1.0.0. Includes all free icons (over 170 icon).  
 
 ## Installation
 
@@ -11,7 +13,7 @@ In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 
 ```yaml
 dependencies:
-  fontisto_flutter: <latest_version>
+  fontisto_flutter: ^3.1.0
 ```
 
 ## Usage
@@ -24,6 +26,8 @@ class MyWidget extends StatelessWidget {
     return IconButton(
       // Use the Icon Widget + Fontisto Icons class for the IconData
       icon: Icon(Istos.laptop), 
+      // Use the Icon Widget + Linear Icons class for the IconData
+      //icon: Icon(Linear.laptop),
       onPressed: () { print("Pressed"); }
      );
   }
@@ -37,7 +41,7 @@ View the Flutter app in the `example` directory to see all the available `Fontis
   
 ```yaml
 dependencies:
-  fontisto_flutter: '>= 0.0.1'
+  fontisto_flutter: '>= 3.0.4'
 ```
   
 ## Contributors

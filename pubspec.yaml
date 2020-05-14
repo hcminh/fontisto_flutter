@@ -1,6 +1,6 @@
 name: fontisto_flutter
-description: The Fontisto Icon pack available as Flutter Icons. Provides over 600 (update..) additional icons to use in your apps.
-version: 3.0.5
+description: Provides over 1000 (update..) additional icons to use in your apps.
+version: 3.1.1
 author: Hoàng Công Minh <hoangminhh17@gmail.com>
 homepage: https://github.com/hcminh/fontisto_flutter
 
@@ -17,3 +17,6 @@ flutter:
     - family: Fontisto
       fonts:
         - asset: lib/fonts/fontisto.ttf
+    - family: Linearicon
+      fonts:
+        - asset: lib/fonts/linearicon.ttf

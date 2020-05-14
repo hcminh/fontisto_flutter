@@ -1,3 +1,9 @@
+## [3.1.0] - Update Linear icon 
+
+* Add Linearicon free to fontisto_flutter collection
+* Add more detail document
+* Icon animation is coming soon...
+
 ## [3.0.5] - fix document
 
 * Fix document generate by dartdoc. 

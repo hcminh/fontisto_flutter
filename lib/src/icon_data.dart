@@ -13,3 +13,15 @@ class IconDataFontisto extends IconData {
           fontPackage: "fontisto_flutter",
         );
 }
+
+/// [IconDataLinear] get codePoint then create icons
+///
+/// Code points can be obtained from linearicons.com/free
+class IconDataLinear extends IconData {
+  const IconDataLinear(int codePoint)
+      : super(
+          codePoint,
+          fontFamily: 'Linearicon',
+          fontPackage: "fontisto_flutter",
+        );
+}
