@@ -1,11 +1,10 @@
 name: fontisto_flutter
 description: Provides over 1000 (update..) additional icons to use in your apps.
 version: 3.1.2
-author: Hoàng Công Minh <hoangminhh17@gmail.com>
 homepage: https://github.com/hcminh/fontisto_flutter
 
 environment:
-  sdk: ">=2.0.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.0.0"
 
 dependencies:
